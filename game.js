@@ -183,8 +183,8 @@ function gameLoop() {
 
 function restartGame() {
     // Reset game variables
-    player = { x: 100, y: 300, health: 10, bullets: [] };
-    enemy = {x: 700, y: 300, health: 10, bullets: [], targetY: 300 };
+    player = { x: 100, y: 300, health: MaxPHealth, bullets: [] };
+    enemy = {x: 700, y: 300, health: MaxEHealth, bullets: [], targetY: 300 };
     gameState = "running";
     document.getElementById("restartButton").style.display = "none";  // Hide the button
 }
