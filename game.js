@@ -6,11 +6,11 @@ playerImg.src = "assets/nointernet.png";
 let enemyImg = new Image();
 enemyImg.src = "assets/derin.png";
 
-let playerHealth = 10
-let enemyHealth = 40
+let playerHealth = 5
+let enemyHealth = 100
 
-let MaxPHealth = 10
-let MaxEHealth = 40
+let MaxPHealth = 5
+let MaxEHealth = 100
 
 let player = { x: 100, y: 300, health: playerHealth, bullets: [] };
 let enemy = { x: 700, y: 300, health: enemyHealth, bullets: [], targetY: 300 };
